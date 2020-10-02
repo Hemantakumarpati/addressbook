@@ -11,7 +11,7 @@ node{
          bat "mvn package"
       }
    stage('Deploy to Tomcat'){
-     bat "copy target\\addressbook.war \"${tomcatWeb}"
+     bat "copy target\\*.war \"${tomcatWeb}"
    }
  
 }
