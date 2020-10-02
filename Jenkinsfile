@@ -4,7 +4,7 @@ node{
    def tomcatStatus = ''
    
   stage('SCM Checkout'){
-     git 'https://github.com/Hemantakumarpati/online-library.git'
+     git 'https://github.com/Hemantakumarpati/addressbook.git'
    }
   
    stage('Compile-Package-create-war-file'){
